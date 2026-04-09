@@ -1,17 +1,96 @@
-# React + Vite
+Smart To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and feature-rich To-Do application built using **React.js**.
+This app helps users manage daily tasks efficiently with priorities, due dates, and drag-and-drop functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Live Demo
 
-## React Compiler
+🔗 https://smart-todo-app-drab.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# smart-todo-app" 
+*  Add, Edit, Delete tasks
+*  Set Priority (Low / Medium / High)
+*  Add Due Date (with past date restriction)
+*  Search tasks
+*  Filter (All / Completed / Pending)
+*  Drag & Drop to reorder tasks
+*  Data persistence using LocalStorage
+*  Responsive UI using Bootstrap
+*  Inline task editing
+
+---
+
+Tech Stack
+
+* Frontend: React.js
+* Styling: Bootstrap
+* Drag & Drop: @dnd-kit
+* Icons: React Icons
+* Deployment: Vercel
+
+---
+
+Project Structure
+
+src/
+│── components/
+│   ├── TaskInput.jsx
+│   ├── TaskList.jsx
+│   ├── TaskItem.jsx
+│   ├── FilterBar.jsx
+│── App.jsx
+│── main.jsx
+
+---
+
+Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/pratikshajadhav08/smart-todo-app.git
+
+Navigate to project folder:
+
+cd smart-todo-app
+
+Install dependencies:
+
+npm install
+
+Run the app:
+
+npm run dev
+
+---
+
+Deployment
+
+This project is deployed using **Vercel**.
+Every push to GitHub automatically triggers deployment.
+
+---
+
+Future Improvements
+
+*  Dark Mode
+*  Notifications for due tasks
+*  User authentication
+*  Task analytics dashboard
+
+---
+
+Author
+
+Pratiksha Jadhav
+GitHub: https://github.com/pratikshajadhav08
+
+---
+
+Support
+
+If you like this project, give it a ⭐ on GitHub!
