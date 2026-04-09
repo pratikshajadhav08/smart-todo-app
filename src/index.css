@@ -1,0 +1,9 @@
+.app-bg {
+background: linear-gradient(120deg, #f093fb, #f5576c);
+}
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: none;
+  color: white;
+}
